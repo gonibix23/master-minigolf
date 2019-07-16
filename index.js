@@ -19,7 +19,6 @@ app.use(bodyParser());
 
 app.get('/', function(req, res){
     res.send('Hola mundo');
-    res.status(100);
 });
 app.get('/hola', function(req, res) {
     res.send('Hola en la ruta /hola');
